@@ -104,16 +104,16 @@
 
 
 
-
+.img-program{
+	max-width: 400px;
+}
 
 
 
 @font-face {
 	font-family: 'Graphik LCG';
-	/* src: url('fonts/GraphikLCG-Medium.woff2') format('woff2'),
-		url('fonts/GraphikLCG-Medium.woff') format('woff'); */
-	src: url('..fonts/GraphikLCG-Medium.woff2') format('woff2'),
-		url('..fonts/GraphikLCG-Medium.woff') format('woff');
+	src: url('fonts/GraphikLCG-Medium.woff2') format('woff2'),
+		url('fonts/GraphikLCG-Medium.woff') format('woff');
 	font-display: swap;
 	font-weight: 00;
 	font-style: normal;
@@ -159,4 +159,14 @@ body {
 a {
 	color: inherit;
 	text-decoration: none;
+}
+
+p{
+	padding: 0px 200px 20px 0px;
+}
+
+figure{
+	margin: 50px 200px 50px 0px;
+	display: inline-block;
+	text-align: center;
 }
