@@ -93,7 +93,12 @@
 	font-size: 18px;
 
 }
-
+.blue-point{
+	color: #2f1ce4;
+}
+.color-black{
+	color: black;
+}
 
 
 
@@ -109,6 +114,53 @@
 .img-program{
 	max-width: 400px;
 }
+
+
+
+
+
+
+
+
+
+.table-main{
+	margin: 100px 0px 0px 0px;
+	border: 1px solid #a0a0a0;
+	border-collapse: collapse;
+	text-align: left;
+}
+.table-caption{
+	border: 1px solid #a0a0a0;
+	border-collapse: collapse;
+	text-align: center;
+	
+}
+
+.table-footer{
+	text-align: center;
+}
+
+caption{
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 80px;
+	text-align: center;
+
+}
+
+td{
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid #a0a0a0;
+	font-weight: 8px;
+	text-align: left;
+}
+
+
+
+
+
+
+
 
 
 
