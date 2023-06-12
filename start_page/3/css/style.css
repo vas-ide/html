@@ -62,6 +62,8 @@
 
 .back-img{
 	margin: 0px 0px 0px 0px;
+	max-width: 25px;
+
 
 }
 
@@ -99,6 +101,18 @@
 	font-size: 18px;
 
 }
+
+.follow-lst{
+	color: #2f1ce4;
+	text-decoration: underline;
+}
+
+.li-add{
+	margin: 0px 0px 0px 0px;
+	padding: 5px 0px 5px 0px;
+}
+
+
 .blue-point-lst{
 	color: #2f1ce4;
 }
@@ -143,12 +157,12 @@
 	text-align: center;
 }
 
-/* caption{
+caption{
 	margin: 10px 10px 10px 10px;
 	padding: 10px 10px 10px 80px;
 	text-align: center;
 
-} */
+}
 
 td{
 	margin: 10px 10px 10px 10px;
