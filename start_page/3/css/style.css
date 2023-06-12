@@ -26,6 +26,7 @@
     justify-content: space-between;
     /* flex-shrink: 1; */
 }
+
 .h2-downloads{
     margin: 0px 0px 0px 20px;
     padding: 20px;
@@ -46,6 +47,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 .container{
 	width: 1170px;
 	margin: 0 auto;
@@ -53,8 +63,6 @@
 }
 
 .back{
-	/* margin: 50px 0px 0px -100px;
-	width: 1500px; */
 	display: flex;
 	flex-direction:row;
 	text-align: center;
@@ -116,6 +124,7 @@
 .blue-point-lst{
 	color: #2f1ce4;
 }
+
 .color-black-lst{
 	padding: 0px 0px 20px 0px;
 	color: black;
@@ -146,6 +155,7 @@
 	border-collapse: collapse;
 	text-align: left;
 }
+
 .table-caption{
 	border: 1px solid #a0a0a0;
 	border-collapse: collapse;
@@ -165,6 +175,7 @@ caption{
 }
 
 td{
+	font-size: 14px;
 	margin: 10px 10px 10px 10px;
 	padding: 10px 10px 10px 10px;
 	border: 1px solid #a0a0a0;
