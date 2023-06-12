@@ -87,23 +87,26 @@
 
 }
 
+.p-add{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 20px 180px;
+
+}
+
 .main-lst{
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 200px;
 	font-size: 18px;
 
 }
-.blue-point{
+.blue-point-lst{
 	color: #2f1ce4;
 }
-.color-black{
+.color-black-lst{
+	padding: 0px 0px 20px 0px;
 	color: black;
+	text-align: left;
 }
-
-
-
-
-
 
 
 
@@ -151,7 +154,7 @@ td{
 	margin: 10px 10px 10px 10px;
 	padding: 10px 10px 10px 10px;
 	border: 1px solid #a0a0a0;
-	font-weight: 8px;
+	font-weight: 12px;
 	text-align: left;
 }
 
@@ -213,10 +216,6 @@ body {
 a {
 	color: inherit;
 	text-decoration: none;
-}
-
-p{
-	padding: 0px 0px 20px 200px;
 }
 
 figure{
