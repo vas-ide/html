@@ -191,6 +191,106 @@ td{
 
 
 
+
+
+.modules-skillbox{
+	margin: 25px 0px 25px 0px;
+	padding: 25px 0px 25px 0px;
+	font-size: 20px;
+
+}
+
+.modules-caption{
+	margin: 25px 0px 25px 0px;
+	padding: 25px 0px 25px 0px;
+}
+
+
+
+
+
+
+.inf-page{
+	width: 1920px;
+	height: 2020px;
+	margin: 0px auto;
+	padding: 0px 0px 0px 0px;
+	/* display: inline-block; */
+
+
+}
+
+.all-bloks{
+	/* margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px; */
+	width: 1024px;
+	height: 550px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.main-bloks{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 480px;
+	height: 505px;
+    border: 1px solid #68f0e9;
+
+
+	/* display: flex; */
+	/* flex-direction: row; */
+    /* align-items: center; */
+    /* align-content: space-between; */
+    /* justify-content: space-between; */
+    /* flex-shrink: 1; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @font-face {
 	font-family: 'Graphik LCG';
 	src: url('../fonts/GraphikLCG-Medium.woff2') format('woff2'),
