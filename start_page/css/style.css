@@ -250,15 +250,13 @@ td{
 	padding: 0px 0px 0px 0px;
 	width: 480px;
 	height: 505px;
-    border: 1px solid #eaeaea;
+    border: 3px solid #eaeaea;
 	display: flex;
 	flex-direction: column;
 }
 
 .img-bloks{
 	width: 475px;
-	max-width: 475;
-
 }
 
 .all-paragraphs-in-bloks{
@@ -295,11 +293,22 @@ td{
 	margin: 100px 670px 863px 780px;
 	padding: 50px 150px 54px 0px;
 	color: #2f1ce4;
-	border: 5px solid #2f1ce4;
+	border: 3px solid #2f1ce4;
 	text-align: right;
 	font-family: gilroy;
 
 }
+
+
+/* .wave {
+	 height: 100px;
+  background: 
+    radial-gradient(circle, #fff 50px, transparent 50px) -75px -50px,
+    radial-gradient(circle, #05f 50px, transparent 50px) -25px 37px,
+    linear-gradient(#fff 45px, #05f 45px);
+  background-size: 100px 100px;
+  background-repeat: repeat-x;
+} */
 
 
 
