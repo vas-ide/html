@@ -266,12 +266,12 @@ td{
 }
 
 .modules-more{
-	margin: 100px 670px 863px 770px;
-	padding: 50px 150px 50px 150px;
+	margin: 100px 670px 863px 780px;
+	padding: 50px 150px 54px 0px;
 	color: #2f1ce4;
-	border: 1px solid #2f1ce4;
+	border: 5px solid #2f1ce4;
 	text-align: right;
-	font-family: gilroy 18px;
+	font-family: gilroy;
 
 }
 
