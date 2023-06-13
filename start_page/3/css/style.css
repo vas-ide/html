@@ -71,14 +71,11 @@
 .back-img{
 	margin: 0px 0px 0px 0px;
 	max-width: 25px;
-
-
 }
 
 .back-text{
 	font-size: 20px;
 	margin: 0px 0px 0px 20px;
-
 }
 
 .main-caption{
@@ -191,18 +188,39 @@ td{
 
 
 
-
+.modules-header{
+	text-align: left;
+	/* align-items: center; */
+	/* justify-content: center; */
+}
 
 .modules-skillbox{
-	margin: 25px 0px 25px 0px;
+	margin: 25px 0px 25px 370px;
 	padding: 25px 0px 25px 0px;
-	font-size: 20px;
+	font-size: 40px;
+}
 
+.modules-back{
+	margin: 0px 0px 0px 370px;
+	padding: 0px 0px 0px 0px;
+	display: flex;
+	justify-content: left;
+}
+
+.modules-back-img{
+	margin: 0px 0px 0px 0px;
+	max-width: 25px;
+}
+
+.modules-back-text{
+	font-size: 18px;
+	margin: 0px 0px 0px 20px;
 }
 
 .modules-caption{
-	margin: 25px 0px 25px 0px;
+	margin: 25px 0px 25px 470px;
 	padding: 25px 0px 25px 0px;
+	font-size: 48px;
 }
 
 
@@ -221,21 +239,22 @@ td{
 }
 
 .all-bloks{
-	/* margin: 10px 10px 10px 10px;
-	padding: 10px 10px 10px 10px; */
-	width: 1024px;
-	height: 550px;
+	margin: 60px 0px 0px 450px;
+	padding: 0px 0px 0px 0px;
+	/* width: 1024px; */
+	/* height: 505px; */
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
+	/* flex-direction: row; */
+	justify-content: left;
 }
 
 .main-bloks{
-	margin: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 60px;
 	padding: 0px 0px 0px 0px;
 	width: 480px;
 	height: 505px;
     border: 1px solid #68f0e9;
+
 
 
 	/* display: flex; */
@@ -244,6 +263,16 @@ td{
     /* align-content: space-between; */
     /* justify-content: space-between; */
     /* flex-shrink: 1; */
+}
+
+.modules-more{
+	margin: 100px 670px 863px 770px;
+	padding: 50px 150px 50px 150px;
+	color: #2f1ce4;
+	border: 1px solid #2f1ce4;
+	text-align: right;
+	font-family: gilroy 18px;
+
 }
 
 
