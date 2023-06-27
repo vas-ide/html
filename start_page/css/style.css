@@ -308,12 +308,13 @@ td{
 
 
 
-/* section {
+section {
+	display: inline-block;
 	padding: 0%;
     margin: 0%;
     width: 100%;
     min-height: 1000px;
-} */
+}
     
 .pattern {
 	padding: 0px 0px 0px 0px;
