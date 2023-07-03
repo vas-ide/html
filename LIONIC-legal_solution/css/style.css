@@ -192,11 +192,12 @@ html {
 }
 
 .section-contacts-list{
+    margin-top: 43px;
     display: flex;
     justify-content: space-between;
 }
 
-.section-contact-item {
+.section-contacts-item {
     max-width: 250px;
     flex: 1 1 33.33%;
     display: flex;
@@ -205,12 +206,41 @@ html {
     /* text-align: center; */
 }
 
+.section-contacts-icon{
+    display: block;
+    height: 26px;
+    margin-bottom: 25px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: auto 100%;
+    background-color: transparent;
+}
+
+.section-contacts-icon-gps {
+    background-image: url(/html/LIONIC-legal_solution/img/gps.png);
+}
+
+.section-contacts-icon-phone {
+    background-image: url(/html/LIONIC-legal_solution/img/phone.png);
+}
+
+.section-contacts-icon-mail {
+    background-image: url(/html/LIONIC-legal_solution/img/mail.png);
+    background-size: auto 19px;
+}
+
 .section-contacts-heading{
-    margin-top: 10px;
+    display: block;
+    margin-bottom: 25px;
 }
 /* Footer */
 
+.footer {
+    height: 125px;
+}
+
 .footer-container {
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -221,16 +251,31 @@ html {
     align-items: center;
 }
 
-.footer-right {
-    display: flex;
+.footer-logo{
+    margin-right: 25px;
 }
 
-.footer-social-list{
+.footer-right {
     display: flex;
+    
 }
 
 .footer-nav-list{
     display: flex;
+}
+
+.footer-nav-item:not(:last-child):not(:last-child) {
+    margin-right: 35px;
+}
+
+.footer-social-list{
+    margin-left: 65px;
+    display: flex;
+}
+
+.footer-social-item:not(:last-child) {
+    margin-right: 20px;
+
 }
 
 
