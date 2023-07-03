@@ -152,12 +152,12 @@ html {
 }
 
 .section-clients-item {
-    height: 362px;
-    /* width: 362px; */
+    /* height: 362px; */
+    /* width: 368px; */
     flex: 1 1 33.33%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
@@ -177,16 +177,30 @@ html {
 }
 
 .section-clients-avatar{
-    max-width: 100px;
+    width: 60px;
+    height: 80px;
+    margin-right: 15px ;
+    border: 2px solid #3172b9;
+    border-radius: 50%;
+    /* max-width: 100px; */
 }
 
 /* Contacts */
+.section-contacts {
+    padding-top: 85px;
+    padding-bottom: 95px;
+}
 
 .section-contacts-list{
     display: flex;
     justify-content: space-between;
 }
 
+.section-clients-item {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
 /* Footer */
 
 .footer-container {
