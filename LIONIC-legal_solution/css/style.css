@@ -31,8 +31,9 @@ html {
 }
 
 .btn {
-    padding: 15px 16px;
-    font-size: 12px;
+    display: inline-block;
+    padding: 16px 36px;
+    font-size: 15px;
     line-height: 1;
     text-transform: uppercase;
     color: white;
@@ -41,7 +42,7 @@ html {
     cursor: pointer;
 
 }
-
+/* Header */
 /* каскад сложно переназначать
 .header .container {
     display: flex;
@@ -73,6 +74,42 @@ html {
 }
 
 
+/* Hero */
+.hero-container{
+   padding: 120px 0px 130px 0px; 
+
+}
+
+.hero-content{
+    max-width: 40%;
+}
+
+.section-hero-heading{
+    margin-bottom: 20px;
+}
+
+.section-hero-description {
+    margin-bottom: 30px;
+}
+
+.days-btn{
+    padding: 16px 50px;
+    font-size: 17px;
+
+}
+
+.section-hero-btn-description{
+    margin: 10px 0px 0px 40px;
+    display: flex; 
+    font-size: 11px;
+}
+
+.section-hero-ssl-icon{
+    margin-right: 10px;
+    
+}
+
+/* What We Do */
 
 
 
