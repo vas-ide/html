@@ -28,13 +28,44 @@ html {
 
 
 .container {
-    max-width: 1170px;
+    max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
+.header {
+    width: 100%;
+}
 
+.header-abave {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
 
+.header-abave-left{
+    display: flex;
+    align-items: center;
+}
+
+.logo-phone{
+    margin-left: 25px;
+    font-size: 22px;
+
+}
+
+.header-abave-right{
+    display: flex;
+    justify-content: end;
+}
+
+.private{
+    margin-right: 10px;
+    
+}
 
 
 

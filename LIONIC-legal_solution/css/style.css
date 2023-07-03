@@ -23,9 +23,23 @@ html {
 }
 
 .container {
-    max-width: 1170px;
+    max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.btn {
+    padding: 15px 16px;
+    font-size: 12px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: white;
+    background-color: #3172b9;
+    border-radius: 4px;
+    cursor: pointer;
+
 }
 
 /* каскад сложно переназначать
