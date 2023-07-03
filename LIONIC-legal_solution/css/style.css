@@ -196,10 +196,17 @@ html {
     justify-content: space-between;
 }
 
-.section-clients-item {
+.section-contact-item {
+    max-width: 250px;
+    flex: 1 1 33.33%;
     display: flex;
-    justify-content: space-between;
-    text-align: center;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* text-align: center; */
+}
+
+.section-contacts-heading{
+    margin-top: 10px;
 }
 /* Footer */
 
