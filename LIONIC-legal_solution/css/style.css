@@ -42,6 +42,10 @@ html {
     cursor: pointer;
 
 }
+
+.text-center {
+    text-align: center;
+}
 /* Header */
 /* каскад сложно переназначать
 .header .container {
@@ -111,14 +115,59 @@ html {
 
 /* What We Do */
 
+.section-do {
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+
+.section-description{
+    margin-top: 25px;
+}
+
+.section-do-list {
+    margin-top: 50px;
+    display: flex;
+}
 
 
+/* Clients */
 
 
+.section-clients-list{
+    display: flex;
+}
 
+/* Contacts */
 
+.section-contacts-list{
+    display: flex;
+    justify-content: space-between;
+}
 
+/* Footer */
 
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left{
+    display: flex;
+    align-items: center;
+}
+
+.footer-right {
+    display: flex;
+}
+
+.footer-social-list{
+    display: flex;
+}
+
+.footer-nav-list{
+    display: flex;
+}
 
 
 
