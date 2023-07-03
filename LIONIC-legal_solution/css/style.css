@@ -174,7 +174,10 @@ html {
     margin-left: 42px;
     display: flex;
     align-items: center;
+}
 
+.section-clients-avatar{
+    max-width: 100px;
 }
 
 /* Contacts */
