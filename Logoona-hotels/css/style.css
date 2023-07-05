@@ -22,10 +22,8 @@ img {
 
 html {
     font-family: sans-serif;
+    background-color: #f1f1f1;
 }
-
-
-
 
 .container {
     max-width: 1200px;
@@ -35,6 +33,9 @@ html {
     padding-right: 15px;
 }
 
+
+
+/* Header */
 .header {
     width: 100%;
 }
@@ -44,7 +45,6 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
 
 .header-abave-left{
@@ -55,7 +55,6 @@ html {
 .logo-phone{
     margin-left: 25px;
     font-size: 22px;
-
 }
 
 .header-abave-right{
@@ -65,26 +64,84 @@ html {
 
 .private{
     margin-right: 10px;
-    
 }
 
 .header-below{
     height: 70px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    align-items: baseline;
+    /* align-items: baseline; */
+    margin-right: 15px ;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 12px;
 }
 
 .header-nav-list{
     margin-left: 20px;
     display: flex;
-
 }
 
 .header-nav-elements:not(:last-child){
     margin-right: 50px;
 }
+
+.header-search-section{
+    margin-right: 21px;
+    height: 48px;
+    width: 355px;
+    background-color: #f1f1f1;
+    border: 2px solid #f1f1f1;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-search-input{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
+    width: 100%;
+    background-color: #f1f1f1;
+    border: 2px solid #f1f1f1;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-search-img{
+    margin-right: 21px;
+    height: 25px;
+    width: 25px;
+    background-repeat: no-repeat;
+}
+
+.header-search-img-search{
+    background-image: url(/html/Logoona-hotels/img/search.png);
+}
+
+/* Two section in one */
+
+
+.nav-armor-item{
+    display: flex;
+    outline: none;
+}
+
+.input-shield{
+    height: 70px;
+    width: 518px;
+    margin-bottom: 24px;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 12px;
+}
+
+
 
 
 
