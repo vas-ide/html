@@ -3,12 +3,16 @@
     box-sizing: border-box;
 }
 
-h1{
+h1 {
     margin-left: 25px;
     margin-top: 200px;
     width: 100px;
     font-size: 66px;
     color: #fff;
+}
+
+p {
+    font-size: 16px;
 }
 
 a {
@@ -40,7 +44,7 @@ html {
     padding-right: 15px;
 }
 
-.section-heading{
+.section-heading {
     margin-left: 44px;
     font-size: 40px;
 }
@@ -59,26 +63,26 @@ html {
     justify-content: space-between;
 }
 
-.header-abave-left{
+.header-abave-left {
     display: flex;
     align-items: center;
 }
 
-.logo-phone{
+.logo-phone {
     margin-left: 25px;
     font-size: 22px;
 }
 
-.header-abave-right{
+.header-abave-right {
     display: flex;
     justify-content: end;
 }
 
-.private{
+.private {
     margin-right: 10px;
 }
 
-.header-below{
+.header-below {
     height: 70px;
     width: 100%;
     display: flex;
@@ -91,16 +95,16 @@ html {
     border-radius: 12px;
 }
 
-.header-nav-list{
+.header-nav-list {
     margin-left: 20px;
     display: flex;
 }
 
-.header-nav-elements:not(:last-child){
+.header-nav-elements:not(:last-child) {
     margin-right: 50px;
 }
 
-.header-search-section{
+.header-search-section {
     margin-right: 21px;
     height: 48px;
     width: 355px;
@@ -112,7 +116,7 @@ html {
     justify-content: space-between;
 }
 
-.header-search-input{
+.header-search-input {
     margin-left: 10px;
     margin-right: 10px;
     width: 100%;
@@ -125,30 +129,30 @@ html {
     justify-content: space-between;
 }
 
-.header-search-img{
+.header-search-img {
     margin-right: 21px;
     width: 25px;
     height: 25px;
     background-repeat: no-repeat;
 }
 
-.header-search-img-search{
+.header-search-img-search {
     background-image: url(/html/Logoona-hotels/img/search.png);
 }
 
 /* Two section in one */
 
-.section-two{
+.section-two {
     margin-top: 70px;
     display: flex;
 
 }
 
-.two-left{
+.two-left {
     margin-right: 54px;
 }
 
-.nav-armor-item{
+.nav-armor-item {
     width: 518px;
     height: 70px;
     margin-bottom: 24px;
@@ -159,7 +163,7 @@ html {
     outline: none;
 }
 
-.input-shield{
+.input-shield {
     margin-left: 20px;
     width: 100%;
     height: 100%;
@@ -169,7 +173,7 @@ html {
     border-radius: 12px;
 }
 
-.search-room{
+.search-room {
     display: flex;
     align-items: center;
 }
@@ -186,27 +190,27 @@ html {
     border-radius: 12px;
 }
 
-.numb-rooms{
+.numb-rooms {
     margin-left: 30px;
     color: #c93;
 }
 
-.numb-text{
+.numb-text {
     margin-left: 5px;
 }
 
-.all-rooms{
+.all-rooms {
     display: flex;
 }
 
-.two-right{
+.two-right {
 
     width: 595px;
     height: 540px;
 
 }
 
-.section-lux-back{
+.section-lux-back {
     display: flex;
     width: 100%;
     height: 100%;
@@ -214,7 +218,7 @@ html {
     border-radius: 12px;
 }
 
-.section-lux-back-img{
+.section-lux-back-img {
     background-image: url(/html/Logoona-hotels/img/1.jpg);
 }
 
@@ -222,9 +226,39 @@ html {
 
 /* About */
 
-.section-about{
+.section-about {
+    width: 80%;
     margin-top: 70px;
 }
+
+.about-text {
+    margin-left: 40px;
+}
+
+/* Servise */
+
+/* .section-service {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+} */
+
+.service-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service-item{
+    width: 570px;
+    height: 325px;
+    background-color: #ffffff;
+    border: 0px solid #ffffff;
+    border-radius: 12px;
+
+}
+
 
 
 
