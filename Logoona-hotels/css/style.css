@@ -11,6 +11,11 @@ h1 {
     color: #fff;
 }
 
+h2 {
+margin-top: 64px;
+
+}
+
 a {
     text-decoration: none;
     color: #000;
@@ -33,7 +38,7 @@ html {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1230px;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
@@ -251,7 +256,7 @@ html {
     display: flex;
     flex-direction: column; 
     margin-top: 25px;
-    width: 560px;
+    width: 572px;
     height: 325px;
     background-color: #ffffff;
     border: 0px solid #ffffff;
@@ -262,7 +267,6 @@ html {
     width: 100%;
     height: 165px;
     display: flex;
-    border-radius: 12px 12p 0px 0px;
     border-radius: 12px 12px 0px 0px;
 }  
 
@@ -316,16 +320,119 @@ html {
 }
 
 .advantages-item {
-    padding: 12px;
-    margin: 5gipx;
+
+    margin-top: 24px;
     width: 275px;
     height: 275px;
     background-color: #ffffff;
     border: 0px solid #ffffff;
     border-radius: 12px;
+}
+
+.advantages-img {
+    margin: 44px 0px 0px 44px;
+}
+
+.advantages-text {
+    margin-left: 44px;
+    width: 200px;
+}
+
+/* Accommodation */
+
+.accommodation-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.accommodation-item {
+    margin-top: 24px;
+    width: 373px;
+    height: 441px;
+    background-color: #ffffff;
+    border: 0px solid #ffffff;
+    border-radius: 12px;
+}
+
+.accommodation-item-all{
+    margin-top: 24px;
+    width: 373px;
+    height: 441px;
+    display: flex;
+    background-color: #ffffff;
+    border: 0px solid #ffffff;
+    border-radius: 12px;
+}
+
+.accommodation-img-all {
+    width: 100%;
+    height: 441px;
+    display: flex;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.accommodation-img-all-back {
+    background-image: url(/html/Logoona-hotels/img/83.jpg);
+}
+
+.accommodation-img {
+    width: 100%;
+    height: 217px;
+    display: flex;
+    border-radius: 12px 12px 0px 0px;
+} 
+
+.accommodation-text-all {
+    margin-left: 36px;
+    margin-top: 368px;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    font-size: 22px;
+    color: white;
+}
+
+.white-arr {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
+.accommodation-img-r1 {
+    background-image: url(/html/Logoona-hotels/img/61.jpg);
+}
+
+.accommodation-img-r2 {
+    background-image: url(/html/Logoona-hotels/img/62.jpg);
+}
+
+.accommodation-img-r3 {
+    background-image: url(/html/Logoona-hotels/img/63.jpg);
+}
+
+.accommodation-img-r4 {
+    background-image: url(/html/Logoona-hotels/img/71.jpg);
+}
+
+.accommodation-img-r5 {
+    background-image: url(/html/Logoona-hotels/img/72.jpg);
+}
+
+.accommodation-img-r6 {
+    background-image: url(/html/Logoona-hotels/img/73.jpg);
+}
+
+.accommodation-img-r7 {
+    background-image: url(/html/Logoona-hotels/img/81.jpg);
+}
+.accommodation-img-r8 {
+    background-image: url(/html/Logoona-hotels/img/82.jpg);
+}
+
+ 
 
 
 
