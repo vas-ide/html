@@ -432,7 +432,37 @@ html {
     background-image: url(/html/Logoona-hotels/img/82.jpg);
 }
 
+.price-star {
+    display: flex;
+    justify-content: space-around;
+}
+
+.price {
+    font-weight: 800;
+}
  
+
+.accommodation-item-info-name {
+    margin-left: 44px;
+}
+
+.accommodation-item-info-place {
+    margin-left: 44px;
+}
+
+.room-btn {
+    margin-left: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 41px;
+    font-size: 16px;
+    color: #c93;
+    background-color:  #fff;
+    border: 1px solid #c93;
+    border-radius: 12px;
+}
 
 
 
