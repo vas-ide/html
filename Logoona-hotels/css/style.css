@@ -315,7 +315,7 @@ p {
     flex-direction: column; 
     margin-top: 25px;
     width: 572px;
-    height: 325px;
+    min-height: 325px;
     background-color: #ffffff;
     border: 0px solid #ffffff;
     border-radius: 12px;
@@ -362,10 +362,6 @@ p {
     background-size: contain;
 }
 
-.golden-arr {
-
-}
-
 .service-text {
     margin-left: 44px;
     width: 62%;
@@ -384,10 +380,9 @@ p {
 }
 
 .advantages-item {
-
     margin-top: 24px;
     width: 275px;
-    height: 275px;
+    min-height: 275px;
     background-color: #ffffff;
     border: 0px solid #ffffff;
     border-radius: 12px;
@@ -399,13 +394,14 @@ p {
 
 .advantages-text {
     margin-left: 44px;
-    width: 60%;
+    width: 61%;
     color: #333;
 }
 
 /* Accommodation */
 
 .accommodation-list {
+    flex: 1 1 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
