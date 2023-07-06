@@ -171,6 +171,7 @@ html {
     background-color: #ffffff;
     border: 2px solid #ffffff;
     border-radius: 12px;
+    outline: none;
 }
 
 .search-room {
