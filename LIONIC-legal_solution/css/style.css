@@ -61,7 +61,7 @@ html {
 .btn {
     display: inline-block;
     padding: 16px 30px;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 1;
     font-weight: 600;
     text-transform: uppercase;
@@ -165,12 +165,12 @@ html {
 }
 
 .section-hero-btn-description{
-    margin: 10px 0px 0px 0px;
+    margin: 10px 0px 0px 5px;
     width: 250px;
     display: flex; 
     justify-content: center;
     align-items: center;
-    font-size: 11px;
+    font-size: 11px;  
     line-height: 1;
     text-transform: uppercase;
     color: #787878;
@@ -178,6 +178,11 @@ html {
 
 .section-hero-ssl-icon{
     margin-right: 10px;
+    width: 13px;
+    height: 17px;
+    background: url(/html/LIONIC-legal_solution/img/shield.svg) center center no-repeat transparent;
+    background-size: contain;
+    transform: translateY(-1px);
     
 }
 
