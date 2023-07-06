@@ -70,7 +70,8 @@ p {
 }
 
 .container {
-    max-width: 1230px;
+    min-width: 1200px;
+    max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
@@ -398,7 +399,8 @@ p {
 
 .advantages-text {
     margin-left: 44px;
-    width: 200px;
+    width: 60%;
+    color: #333;
 }
 
 /* Accommodation */
