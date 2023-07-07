@@ -373,8 +373,22 @@ html {
 
 .section-contacts-heading{
     display: block;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
+    font-size: 17px;
+    line-height: 1;
+    color: #1c1c1c;
 }
+
+.section-contacts-info {
+    font-size: 14px;
+    line-height: 25px;
+    color: #787878;
+}
+
+.section-contacts-link {
+    color: #787878;
+}
+
 /* Footer */
 
 .footer {
@@ -397,6 +411,13 @@ html {
     margin-right: 25px;
 }
 
+.footer-coopyrights {
+    font-size: 12px;
+    line-height: 1;
+    color: #787878;
+
+}
+
 .footer-right {
     display: flex;
     
@@ -406,6 +427,12 @@ html {
     display: flex;
 }
 
+.footer-nav-item {
+    font-size: 14px;
+    line-height: 1;
+    color: #787878;
+}
+
 .footer-nav-item:not(:last-child):not(:last-child) {
     margin-right: 35px;
 }
@@ -413,11 +440,39 @@ html {
 .footer-social-list{
     margin-left: 65px;
     display: flex;
+    align-items: center;
 }
 
 .footer-social-item:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 30px;
 
+}
+
+.footer-social-icon {
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center center;
+}
+
+.footer-social-icon-twitter {
+    width: 18px;
+    height: 15px;
+    background-image: url(/html/LIONIC-legal_solution/img/twitter.svg);
+}
+
+.footer-social-icon-linkedin {
+    width: 18px;
+    height: 19px;
+    background-image: url(/html/LIONIC-legal_solution/img/linkedin.svg);
+    transform: translateY(-1px);
+}
+
+.footer-social-icon-email {
+    width: 24px;
+    height: 17px;
+    background-image: url(/html/LIONIC-legal_solution/img/email.svg);
 }
 
 
