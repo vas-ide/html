@@ -543,5 +543,71 @@ p {
 }
 
 
+/* Contacts */
+
+.section-contacts {
+    width: 100%;
+
+    flex: 1 1 50%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.contacts-item {
+    display: flex;
+    align-items: center;
+}
+
+.contacts-item-heading {}
 
 
+.contacts-item-address {}
+
+
+.contacts-item-phone {}
+
+
+.contacts-item-email {}
+
+
+.contacts-item-graphick {}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-feedback {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-search-section {
+    margin-right: 21px;
+    height: 48px;
+    width: 355px;
+    background-color: #f1f1f1;
+    border: 2px solid #f1f1f1;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input-feedback {
+    margin-left: 20px;
+    width: 100%;
+    height: 100%;
+    
+    background-color: white;
+    border: white;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    outline: none;
+}
+
+.input-feedback::placeholder {
+    color: #bebebe;
+}
