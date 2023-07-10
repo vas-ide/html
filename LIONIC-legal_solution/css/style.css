@@ -389,6 +389,14 @@ html {
     color: #787878;
 }
 
+
+/* Form */
+
+.section-form {
+    height: 440px;
+    border-bottom: 1px solid #e4e4e4
+}
+
 /* Footer */
 
 .footer {
