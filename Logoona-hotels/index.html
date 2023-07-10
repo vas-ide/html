@@ -72,33 +72,20 @@
         <div class="section-two">
             <div class="two-left">
                 <h2 class="section-heading">Быстрая бронь</h2>
-                <nav class="nav-armor">
-                    <ul class="nav-armor-list">
-                        <li class="nav-armor-item">
-                            <input type="text" placeholder="Город" class="input-shield">
-                        </li>
-                        <li class="nav-armor-item">
-                            <input type="text" placeholder="Категория номера" class="input-shield">
-                        </li>
-                        <li class="nav-armor-item">
-                            <input type="text" placeholder="Дата заселения" class="input-shield">
-                        </li>
-                        <li class="nav-armor-item">
-                            <input type="text" placeholder="Колличество ночей" class="input-shield">
-                        </li>
-                        <li class="nav-armor-item">
-                            <input type="text" placeholder="Колличество гостей" class="input-shield">
-                        </li>
-                    </ul>
-                </nav>
-                <div class="search-room">
-                    <a href="" class="search-room-btn">Найти номер</a>
-                    <div class="all-rooms">
-                        <div class="numb-rooms">9756</div>
-                        <div class="numb-text">предложений доступно</div>
+                <form action="https://jsonplaceholder.typicode.com/posts" autocomplete method="post" class="form-shield">
+                    <input type="text" name="city" required placeholder="Город" class="input-shield">
+                    <input type="text" name="class_of_room" required maxlength="8" placeholder="Категория номера" class="input-shield">
+                    <input type="datetime" name="date_of_arrival" required placeholder="Дата заселения" class="input-shield">
+                    <input type="number" name="days" required placeholder="Колличество ночей" class="input-shield">
+                    <input type="number" name="people" required placeholder="Колличество гостей" class="input-shield">
+                    <div class="search-room">
+                        <button type="submit" class="search-room-btn">Найти номер</button>
+                        <div class="all-rooms">
+                            <div class="numb-rooms">9756</div>
+                            <div class="numb-text">предложений доступно</div>
+                        </div>
                     </div>
-                </div>
-
+                </form>
             </div>
             <div class="two-right">
                 <h2 class="section-heading">Спецпредложение</h2>
@@ -408,8 +395,55 @@
                 </ul>
             </div>
         </div>
+        <div class="contrainer">
+            <div class="section-contacts">
+                <div class="contacts">
+                    <h2 class="section-heading">Контакты</h2>
+                    <div class="contacts-info">
+                        <div class="contacts-item">
+                            <h2 class="contacts-heading"></h2>
+                            <address></address>
+                        </div>
+                        <ul class="contacts-list">
+                            <li class="contacts-item">
+                                <h3 class="contacts-item-heading">Адрес</h3>
+                                <address class="contacts-item-address">Москва, улица Юности, дом 5 строение 4, офис 2.</address>
+                            </li>
+                            <li class="contacts-item">
+                                <h3 class="contacts-item-heading"> Телефоны</h3>
+                                <div class="contacts-item-phone">
+                                    <p>+7(499)535-64-34</p>
+                                    <p>+7(495)005-05-44</p>
+                                </div>
+                            </li>
+                            <li class="contacts-item">
+                                <h3 class="contacts-item-heading">Email</h3>
+                                <div class="contacts-item-email">
+                                    <p>lg.oona@mail.ru по вопросам бронирования</p>
+                                    <p>hotels.ln@mail.ru по вопросам сотрудничества</p>
+                                </div>
+                            </li>
+                            <li class="contacts-item">
+                                <h3 class="contacts-item-heading">График</h3>
+                                <div class="contacts-item-graphick">
+                                    <p>Понедельник-пятница, с 10:00 до 19:00</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <button type="submit" class="btn follow-btn">Построить маршрут</button>
+                </div>
+                <div class="feedback"></div>
+                <h2 class="section-heading">Напишите нам</h2>
+                <form action="https://jsonplaceholder.typicode.com/posts" autocomplete method="post" class="form-shield">
+                    <input type="text" name="name" required placeholder="Имя" minlength="8" maxlength="24" class="input-feedback">
+                    <input type="tel" name="phone" required placeholder="+7" minlength="11" maxlength="11" class="input-feedback">
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <button type="submit" class="btn feedback-btn">Отправить</button>
+                </form>
+            </div>
+        </div>
         <footer>
-            <div class="contrainer"></div>
             <div class="contrainer"></div>
         </footer>
 
