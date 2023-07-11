@@ -546,31 +546,72 @@ p {
 /* Contacts */
 
 .section-contacts {
-    width: 100%;
-
+    margin-left: 15px;
     flex: 1 1 50%;
-    justify-content: space-between;
     display: flex;
+    justify-content: space-between;
+}
+
+.contacts {
+    width: 472px;
+    height: 619px;
+   
+}
+
+.contacts-info {
+    background-color: #fff;
+    border-radius: 12px;
 }
 
 .contacts-item {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
     display: flex;
-    align-items: center;
+    align-items: baseline;
+    justify-content: space-between;
+    color: #666;
+    border-bottom: 1px solid #e4e4e4;
+    
 }
 
 .contacts-item-heading {}
 
 
-.contacts-item-address {}
+.contacts-item-address {
+    font-style: normal;
+    width: 210px;
+    
+}
 
 
-.contacts-item-phone {}
+.contacts-item-phone {
+    width: 150px;
+    color: #c93;
+}
 
 
-.contacts-item-email {}
+.contacts-item-email {
+    width: 230px;
+}
+
+.contacts-email {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 24px;
+
+}
+
+.golden-email {
+    color: #c93;
+}
 
 
-.contacts-item-graphick {}
+.contacts-item-graphick {
+    width: 160px;
+}
 
 .feedback {
     display: flex;
